@@ -1,0 +1,41 @@
+.regestration-page {
+  background-image: url(../../assets/images/sunset.jpg);
+  height: 100%;
+
+/* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.registration-block{
+  color: white;
+  padding: 200px;
+  padding-left: 370px;
+  font-size: 15px;
+}
+input[type=text],
+select {
+  color: white;
+  font-size: 20px;
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+
+input[type=submit],
+select {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+}
+.register-button{
+  margin-left: 50px;
+}
